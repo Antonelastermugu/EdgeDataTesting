@@ -1,4 +1,4 @@
-package EdgeData;
+package EdgeData.EdgeDataTesting;
 
 public class UniqueData {
 	// kthe vlera Null ose boshe
