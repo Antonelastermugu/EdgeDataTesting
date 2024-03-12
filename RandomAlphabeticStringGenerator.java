@@ -1,4 +1,4 @@
-package EdgeData;
+package EdgeData.EdgeDataTesting;
 
 import java.util.Random;
 
