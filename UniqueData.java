@@ -1,14 +1,18 @@
 package EdgeData.EdgeDataTesting;
 
 public class UniqueData {
-	// kthe vlera Null ose boshe
-		public static String generateNullEmptyValues(String type) {
-			if (type.equals("Empty")) {
-				String emptyString = "";
-				return emptyString;
-			} else {
-				String nullString = null;
-				return nullString;
-			}
+		//This method creates values like empty, null, " "
+	public static String generateNullEmptyValues(String type) {
+		if (type.equals("Empty")) {
+			String emptyString = "";
+			return emptyString;
+		} else if (type.equals("Null")) {
+			String nullString = null;
+			return nullString;
+		} else {
+			String SpaceString = " ";
+			return SpaceString;
 		}
+
+	}
 }
