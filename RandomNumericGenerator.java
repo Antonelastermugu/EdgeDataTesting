@@ -1,6 +1,5 @@
 package EdgeData.EdgeDataTesting;
 
-
 import java.util.Random;
 
 public class RandomNumericGenerator {
@@ -18,7 +17,7 @@ public class RandomNumericGenerator {
 			return sb.toString();
 		}
 
-		//This method creates overflow or underflow values on the datatype (int,double, float)
+		//This method creates overflow or underflow values based on the datatype (int,double, float)
 		public static String generateOverflowUnderflow(String type, String MinOrMax) {
 			switch (type) {
 			case "Integer":
